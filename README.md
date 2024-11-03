@@ -4,6 +4,19 @@
 
 Este projeto é um formulário simples em React que coleta e valida um endereço de e-mail. Ele utiliza as bibliotecas **Formik** para gerenciar o estado do formulário e **Yup** para validação de dados, garantindo que o usuário insira um e-mail válido antes do envio.
 
+**Estrutura do Projeto**
+/formulario-react
+│
+├── /node_modules        # Dependências do projeto
+├── /public              # Arquivos públicos (HTML, favicon)
+├── /src                 # Código-fonte do aplicativo
+│   ├── App.js           # Componente principal do aplicativo
+│   ├── FormularioEmail.js # Componente que representa o formulário de e-mail
+│   └── index.js         # Ponto de entrada do React
+│
+├── package.json         # Dependências e scripts do projeto
+└── README.md            # Documentação do projeto
+
 ## Instruções de Instalação e Execução
 
 1. **Clone o :**
